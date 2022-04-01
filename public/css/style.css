@@ -1,6 +1,7 @@
 @import url("variables.css");
 @import url("generales.css");
 @import url("header.css");
+@import url("footer.css");
 
 /* @media (min-width: 361px) {
   .articulo:hover {

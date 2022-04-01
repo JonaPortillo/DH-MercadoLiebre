@@ -1,0 +1,37 @@
+/* Footer */
+footer {
+  margin-top: 40px;
+}
+
+footer .copy p {
+  text-align: center;
+}
+
+footer .footer-article {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer .footer-article i {
+  font-size: 32px;
+  color: var(--ligth-blue);
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+footer .footer-article i:hover {
+  color: #0022aa;
+}
+
+footer .footer-article p {
+  font-size: var(--paragraph);
+  width: 77%;
+  margin: 0 auto;
+}
+
+footer .copy {
+  color: var(--dark-grey);
+  font-size: var(--paragraph);
+  margin: 10px 0 15px 0;
+  width: 100%;
+}
