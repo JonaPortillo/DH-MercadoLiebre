@@ -3,9 +3,12 @@ let app = express()
 let path = require('path')
 const PORT = 3000
 
+//Midware
+app.use(express.static('public'));
+
 //Routes
 app.get('/', (req, res) => {
-    res.send("Hola")
+    res.sendFile(path.join(__dirname, "views/home.html"))
 })
 
 
