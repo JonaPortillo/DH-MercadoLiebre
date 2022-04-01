@@ -1,0 +1,73 @@
+/* HEADER */
+header {
+  background-color: var(--yellow);
+  font-size: var(--paragraph);
+  padding: 20px 20px 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+header .logo {
+  width: 48%;
+}
+header .header-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .burger-menu {
+  color: white;
+  background-color: var(--ligth-blue);
+  border-radius: 3px;
+  width: 30px;
+  padding: 7px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px auto 0;
+}
+
+header .search-bar {
+  width: 50%;
+  display: flex;
+  height: 36px;
+  max-width: 320px;
+}
+
+header .search-bar form {
+  width: 100%;
+  display: flex;
+}
+header .search-bar input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+header .search-bar button {
+  background-color: white;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  padding: 5px;
+  color: grey;
+  cursor: pointer;
+  border-left: 1px solid grey;
+}
+
+header .quota {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0;
+  max-width: 350px;
+}
+
+/* header nav {
+  display: none;
+} */
+
+header nav #top-lista {
+  margin-bottom: 15px;
+}

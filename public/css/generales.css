@@ -1,0 +1,22 @@
+/* General */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-roboto);
+  background-color: var(--light-grey);
+  margin-top: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
