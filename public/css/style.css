@@ -12,6 +12,15 @@
   .articulo .descripcion {
     display: block;
   }
+
+  header .burger-menu {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 768px) {
@@ -30,15 +39,6 @@
 
   header .search-bar button {
     margin: 0 25px 0 0;
-  }
-
-  header .burger-menu {
-    display: none;
-  }
-
-  header nav {
-    display: flex;
-    justify-content: space-between;
   }
 
   header nav ul {

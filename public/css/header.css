@@ -64,9 +64,9 @@ header .quota {
   max-width: 350px;
 }
 
-/* header nav {
+header nav {
   display: none;
-} */
+}
 
 header nav #top-lista {
   margin-bottom: 15px;

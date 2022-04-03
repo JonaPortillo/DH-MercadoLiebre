@@ -8,6 +8,10 @@ main .articulo {
   background-color: white;
 }
 
+main .articulo img {
+  width: 100%;
+}
+
 main .articulo .detalles {
   padding: 15px;
   border-top: 1px solid #ebebeb;
