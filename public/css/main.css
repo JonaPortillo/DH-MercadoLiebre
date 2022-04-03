@@ -71,6 +71,7 @@ main .articulo .price_off .descuento {
   font-size: var(--description-off);
   font-weight: 400;
   color: var(--dark-grey);
+  display: none;
 }
 
 .display-block {
