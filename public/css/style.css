@@ -21,6 +21,16 @@
     display: flex;
     justify-content: space-between;
   }
+  section {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  section article {
+    width: 47%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -52,18 +62,10 @@
   header nav li a {
     font-size: 12px;
   }
-
-  section {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
+*/
   section article {
-    width: 47%;
+    width: 23%;
   }
-  */
 }
 
 @media (min-width: 900px) {
@@ -87,15 +89,11 @@
   header nav li a {
     font-size: 18px;
   }
-
-  section article {
-    width: 23%;
-  }
-
+*/
   section {
     max-width: 1200px;
   }
-
+  /*
   main .articulo .price_off .descuento {
     text-align: center;
   }
