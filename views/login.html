@@ -11,10 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
 
-    <title>Registro</title>
+    <title>Login</title>
 </head>
 
-<body>
+<body class="login">
     <header class="header">
         <div class="header-top">
             <div class="logo">
@@ -55,87 +55,26 @@
         </div>
 
     </header>
-
     <form class="form" action="">
-        <div class="input-container">
-            <input type="text" id="name" name="name" placeholder="Nombre y Apellido" required>
-        </div>
         <div class="input-container">
             <input type="text" id="user_name" name="user_name" placeholder="Nombre de usuari@" required>
             <span class="error-message">Ya existe una cuenta registrada con ese nombre</span>
         </div>
         <div class="input-container">
-            <input type="email" id="email" name="email" placeholder="Email" required>
-            <span class="error-message">Ya existe una cuenta registrada con ese email</span>
-        </div>
-
-        <div class="input-container">
-            <input type="text" id="adress" name="adress" placeholder="Localidad" required>
-        </div>
-
-        <div class="input-container">
-            <label for="">Perfil:</label>
-            <div>
-                <input type="radio" id="buyer" name="user" value="buyer" checked required>
-                <label for="buyer">Comprador</label>
-                <input type="radio" id="seller" name="user" value="seller">
-                <label for="seller">Vendedor</label>
-            </div>
-        </div>
-
-        <div class="input-container">
-            <label for="">Categorias de interés:</label>
-            <div>
-                <input type="checkbox" id="electro" name="categories">
-                <label for="electro">Electro</label>
-            </div>
-            <div>
-                <input type="checkbox" id="moda" name="categories">
-                <label for="moda">Moda</label>
-            </div>
-            <div>
-                <input type="checkbox" id="hogar" name="categories">
-                <label for="hogar">Hogar</label>
-            </div>
-            <div>
-                <input type="checkbox" id="jugueteria" name="categories">
-                <label for="jugueteria">Juguetería</label>
-            </div>
-            <div>
-                <input type="checkbox" id="vida_sana" name="categories" required>
-                <label for="vida_sana">Vida sana</label>
-            </div>
-        </div>
-        <div class="input-container">
-            <label for="avatar">Foto de perfil:</label>
-
-            <input type="file" id="avatar" name="avatar" accept=".png, .jpeg, .jpg" required>
-        </div>
-
-        <div class="input-container">
             <input type="password" id="pass" name="password" placeholder="Contraseña" required>
-        </div>
-        <div class="input-container">
-            <input type="password" id="pass" name="password" placeholder="Confirmar contraseña" required>
-            <span class="error-message">Las contraseñas no coinciden</span>
         </div>
 
         <div class="buttons">
             <div class="button-submit">
-                <button type="submit"><a href="/">Enviar</a></button>
-            </div>
-            <div class="button-reset">
-                <button type="reset">Borrar</button>
+                <button type="submit"><a href="/">Ingresar</a></button>
             </div>
         </div>
 
         <div class="create-count">
-            <a href="/login">¿Ya tenés cuenta? Iniciá sesión</a>
+            <a href="/register">¿Todavía no tenés cuenta? Creá una</a>
         </div>
 
     </form>
-
-
     <footer class="footer">
         <article class="footer-article">
             <div>

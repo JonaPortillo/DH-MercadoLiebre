@@ -9,7 +9,7 @@
   color: red;
   margin-top: 5px;
   display: inline-block;
-  display: none;
+  /* display: none; */
 }
 
 .form .input-container {
