@@ -6,12 +6,8 @@
 @import url("register.css");
 
 @media (min-width: 361px) {
-  .articulo {
+  .articulo:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  }
-
-  .articulo .descripcion {
-    display: block;
   }
 
   header .burger-menu {

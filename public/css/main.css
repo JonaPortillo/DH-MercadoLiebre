@@ -49,6 +49,7 @@ main .articulo .price_off .descuento {
   position: absolute;
   right: 20px;
   top: -15px;
+  transition: all 0.5s ease;
 }
 
 .banner {
@@ -79,4 +80,12 @@ main .articulo .price_off .descuento {
 
 .display-block {
   display: block;
+}
+
+.articulo:hover .descripcion {
+  display: block;
+}
+
+.articulo:hover .content-icon i {
+  transform: rotate(-90deg);
 }
