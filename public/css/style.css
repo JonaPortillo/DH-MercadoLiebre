@@ -63,7 +63,7 @@
 }
 
 @media (min-width: 768px) {
-  ´ section article {
+  section article {
     width: 23%;
   }
   header .header-top .quota {
